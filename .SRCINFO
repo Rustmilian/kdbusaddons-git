@@ -1,0 +1,22 @@
+pkgbase = kdbusaddons-git
+	pkgdesc = Addons to QtDBus
+	pkgver = 5.240.0_r467.g455e1e3
+	pkgrel = 1
+	url = https://invent.kde.org/frameworks/kdbusaddons
+	arch = x86_64
+	groups = kf6-git
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules-git
+	makedepends = qt6-tools
+	makedepends = clang
+	makedepends = python-pyqt6
+	makedepends = doxygen
+	makedepends = sip4
+	optdepends = python-pyqt6: for the Python bindings
+	provides = kdbusaddons
+	conflicts = kdbusaddons
+	source = git+https://invent.kde.org/frameworks/kdbusaddons.git
+	sha256sums = SKIP
+
+pkgname = kdbusaddons-git
